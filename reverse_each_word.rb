@@ -8,6 +8,11 @@ end
 end
 
 def reverse_each_word(string)
-  
+  l = []
+  m = string.split(/ /)
+  m.collect do |n|
+    l << n.reverse
+  end
+end
   
    
